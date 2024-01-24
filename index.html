@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div id="whole">
+
+        <div id="container"></div>
+        <form onsubmit="create(); return false">
+            <input type="number" min="1" max="100" id="range">
+            <input type="submit" name="" id="">
+            <button onclick="undo()">Clear</button>
+        </form>
+        <script src="script.js"></script>
+</body>
+
+</html>
